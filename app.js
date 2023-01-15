@@ -1,5 +1,5 @@
 
-// Exercise 1 Section 
+// // Exercise 1 Section 
 
 // for (let i = 0; i <= 100; i++) {
 //     if (i % 2 === 0) {
@@ -9,19 +9,19 @@
 //         } 
 //         }
     
-// Exercise 2 
+// // Exercise 2 
 
 //  for (let i = 0; i <= 100; i++) {
-    //  if (i % 3 === 0 && i % 5 === 0){
-    //      console.log(`${i} = FIZZBUZZ`);
-    //  } else if (i % 3 === 0) {
-    //     console.log(`${i} = FIZZ`);
-    // } else if (i % 5 === 0) {
-    //     console.log(`${i} = BUZZ`)
-    // }
+//      if (i % 3 === 0 && i % 5 === 0){
+//          console.log(`${i} = FIZZBUZZ`);
+//      } else if (i % 3 === 0) {
+//         console.log(`${i} = FIZZ`);
+//     } else if (i % 5 === 0) {
+//         console.log(`${i} = BUZZ`)
+//     }
 //  }
 
-// Exercise 3 
+// // Exercise 3 
 
 // let i = 0;
 // while (i <= 100) {
@@ -63,7 +63,7 @@
 // }
 //  while (i <= 100); 
 
-// Exercise 4 
+// // Exercise 4 
 
 // let value = Math.round((Math.random() * 500)); 
 
@@ -79,14 +79,15 @@
 // }
 // }
 
-// Exercise 5
+// // Exercise 5
+
 // let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 // let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 // let n = Math.round(Math.random() * (1000 - 1) + 1);
 // let start = Math.round(Math.random() * (10 - 1) + 1);
 
 // for (i = start; i <= n; i ++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
+//     if (i % fizzDivisor === 0 && i % buzzDivisor === 0) {
 //       console.log(`${i} = FIZZBUZZ`);
 //     }
 //  if (i % fizzDivisor === 0) {
